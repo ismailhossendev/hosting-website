@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 15%;
+}
+.hero-sec{
+    height: 80vh;
+    background-color: #F6F6F6;
+    display: flex;
+}
+.nav{
+width: 50%;
+height: 50px;
+float: right;
+
+}
+.nav ul{
+    margin: 30px 0;
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.nav ul li{
+    font-size: 16px;
+    color: #03045E;
+    margin: 0 40px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+}
+/* .nav ul li a:hover{
+    color: rgb(255, 0, 0);
+    background-color: azure;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+*/ 
+.login-btn{
+    padding: 10px 30px;
+    background: #03045E;
+    color: white;
+    border-radius: 5px;
+}
+.nav{
+    width: 100%;
+}
+.nav-logo{
+    margin-top: 15px;
+}
