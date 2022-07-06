@@ -4,7 +4,6 @@
 }
 h1,h2,h3{
     font-family: 'Oswald', sans-serif;
-    color: #03045E;
 }
 .container{
     padding: 0 15%;
@@ -68,6 +67,7 @@ float: right;
 .hero-content h1{
     font-size: 50px;
     width: 90%;
+    color: #03045E;
 }
 .hero-content p{
     width: 80%;
@@ -192,6 +192,7 @@ float: right;
 .service h1{
     margin-top: 100px;
     font-size: 40px;
+    color: #03045E;
 }
 .img-box{
     background-color: #F6F6F6;
@@ -264,3 +265,63 @@ float: right;
     opacity: 0.8;
 }
 
+
+.price-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.price-plan h1{
+    font-size: 40px;
+}
+.f-b-t-c{
+    color: #03045E;
+}
+.price-box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.top-text-p{
+    margin: 10% 20px;
+    width: 318px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.top-text-p P{
+    margin: 7% 0;
+    border-bottom: solid 1px rgba(17, 17, 17, 0.212);
+}
+.top-text-p a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #03045E;
+    padding: 10px 30px;
+    color: #fff;
+    margin: 1% 0;
+    border-radius: 5px;
+}
+.top-text-p h1{
+    font-size: 35px;
+    
+    
+}
+.top-text-p:nth-child(2n){
+    background-color: #00aeff;
+    color: #fff;
+}
+
+.top-text-p:nth-child(2n+1){
+    background-color: #f0e8e8c0;
+    color: #03045E;
+}
+.top-text-p h5{
+    font-size: 15px;
+    margin-top: 15px;
+}
