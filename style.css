@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 h1,h2,h3{
     font-family: 'Oswald', sans-serif;
 }
@@ -9,7 +12,7 @@ h1,h2,h3{
     padding: 0 15%;
 }
 .hero-sec{
-    height: 90vh;
+    height: 100vh;
     background-color: #F6F6F6;
 }
 .nav-sec{
@@ -324,4 +327,84 @@ float: right;
 .top-text-p h5{
     font-size: 15px;
     margin-top: 15px;
+}
+
+
+
+/* footer */
+
+.footer-wiget{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 35vh;
+    background: #F6F6F6; 
+}
+
+.footer-box{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    margin: 0 5%;
+}
+.footer-box a{
+    display: inline-block;
+    text-decoration: none;
+    height: 30px;
+    color: #4f419bda;
+    
+}
+.footer-box h3{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.footer-box img{
+    height: 40px;
+    width: 150px;
+}
+.f-s-icons{
+    display: flex;
+    margin-left: -5px;
+}
+.f-icon img{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.go-top img{
+    position: sticky;
+    width: 40px;
+    height: 40px;
+    top: 90vh;
+    float: right;
+    right: 100px;
+    background-color: #c2bbbbe3;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fixt-social-icon img{
+    height: 30px;
+    width: 30px;
+}
+.fixt-social-icon{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50vh;
+    left: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+    margin: 0 5%;
+    
+}
+footer a{
+    text-decoration: none;
 }
