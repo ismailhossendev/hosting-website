@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+    color: #03045E;
+}
 .container{
     padding: 0 15%;
 }
@@ -153,6 +157,7 @@ float: right;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: #F6F6F6;
 }
 .service-box{
     display: flex;
@@ -167,6 +172,7 @@ float: right;
     width: 407px;
     height: 255px;
     text-align: center;
+    margin-top: 10px;
     
     
 }
@@ -184,5 +190,53 @@ float: right;
     color: #03045E;
 }
 .service h1{
+    margin-top: 100px;
     font-size: 40px;
+}
+.img-box{
+    background-color: #F6F6F6;
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*end */
+.clients-feed-back{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-box-c{
+    display: flex;
+    text-align: center;
+}
+.f-box{
+    width: 350x;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    background: #F6F6F6;
+    margin: 5px;
+}
+.f-box p{
+    margin: 20px 0;
+    color: #03045E;
+    opacity: 0.8;
+}
+.f-box h2{
+    color: #03045E;
+    font-size: 20px;
+}
+.f-box small{
+    color: #03045E;
+    opacity: 0.8;
+}
+.clients-feed-back h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #03045E;
 }
