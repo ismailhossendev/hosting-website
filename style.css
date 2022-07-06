@@ -240,3 +240,27 @@ float: right;
     margin-bottom: 50px;
     color: #03045E;
 }
+
+
+.sell-customer{
+    height: 25vh;
+    background: #0098FF;
+    margin: 4% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sell-box{
+    width: 400px;
+}
+.sell-box h1{
+    font-size: 60px;
+    color: #fff;
+}
+.sell-box p{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
