@@ -386,17 +386,7 @@ float: right;
     border-radius: 5px;
     padding: 5px;
 }
-.fixt-social-icon img{
-    height: 30px;
-    width: 30px;
-}
-.fixt-social-icon{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50vh;
-    left: 10px;
-}
+
 .footer{
     display: flex;
     justify-content: space-between;
@@ -407,4 +397,17 @@ float: right;
 }
 footer a{
     text-decoration: none;
+}
+
+
+.fixt-social-icon img{
+width: 30px;
+height: 30px;
+}
+.fixt-social-icon{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50vh;
+    left: 10px;
 }
